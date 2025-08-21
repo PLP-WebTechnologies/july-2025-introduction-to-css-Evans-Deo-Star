@@ -1,0 +1,86 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #2c6bb2;
+}
+.site-header .subtitle {
+  margin-top: 5px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* ===== Navigation ===== */
+.navbar {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 10px;
+}
+.navbar a:hover {
+  background: #4a90e2;
+  border-radius: 5px;
+}
+
+/* ===== Main Content ===== */
+.content {
+  padding: 20px;
+}
+
+/* ===== Card Layout ===== */
+.card {
+  background: white;
+  padding: 20px;           /* padding = inside spacing */
+  margin: 20px auto;       /* margin = outside spacing */
+  border: 2px solid #ddd;  /* border around card */
+  border-radius: 8px;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card h2 {
+  margin-top: 0;
+}
+.card.highlight {
+  background: #e8f3ff;
+  border-color: #4a90e2;
+}
+
+/* ===== Button Styling ===== */
+.btn {
+  background: #4a90e2;
+  color: white;
+  border: 2px solid #2c6bb2;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.btn:hover {
+  background: #2c6bb2;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
